@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+subtitle: Ph.D. Candidate in AI4Science | University of Liverpool
 profile:
   align: right
   image: prof_pic.jpg
@@ -27,8 +26,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a Ph.D. candidate in **Computer Science**, focusing on **AI for Science (AI4Science)**, at the **University of Liverpool**, under the supervision of **[Prof. Yalin Zheng](https://scholar.google.com/citations?user=nKCHXTAAAAAJ&hl=en)**, **[Prof. Gregory Y. H. Lip](https://scholar.google.com/citations?user=cqY4wxQAAAAJ&hl=en)**, and **[Dr. Eduard Shantsila](https://www.liverpool.ac.uk/people/eduard-shantsila-2)**. Before pursuing my Ph.D., I completed my Master's degree at the **University of Leeds**. My five years in the United Kingdom have been among the most memorable and formative years of my life, filled with academic exploration, personal growth, and wonderful memories.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+My research interests lie at the intersection of **Computer Vision, Multimodal Learning, Foundation Models, AI Agents, Explainable Artificial Intelligence (XAI), and Medical AI**. My work focuses on developing interpretable, generalizable, and trustworthy AI systems, with applications in biomedical image analysis, cardiovascular risk prediction, and multimodal intelligence.
+
+I am particularly interested in advancing **multimodal foundation models, vision-language understanding, autonomous AI agents, and interpretable AI systems**, bridging methodological innovations with real-world applications.
+
