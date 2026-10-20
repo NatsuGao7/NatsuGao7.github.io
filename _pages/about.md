@@ -45,120 +45,123 @@ My research interests lie at the intersection of **Computer Vision, Multimodal L
 
 
 
+
 <style>
-.academic-card {
-  display: flex;
-  align-items: center;
-  gap: 22px;
-  padding: 20px;
-  margin: 15px 0;
-  border: 1px solid var(--global-divider-color);
-  border-left: 4px solid #3575e8;
-  border-radius: 12px;
-  background: var(--global-card-bg-color);
+/* Compact academic experience section */
+.academic-resume {
+  display: flow-root;
+  margin-top: 24px;
+  margin-bottom: 30px;
 }
 
-.academic-card img {
-  width: 105px;
-  height: 75px;
+.academic-resume h2 {
+  font-size: 1.35rem;
+  font-weight: 650;
+  margin: 22px 0 12px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.academic-mini-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 10px;
+  margin-bottom: 8px;
+  border-radius: 9px;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+}
+
+.academic-mini-card img {
+  width: 52px;
+  height: 52px;
   object-fit: contain;
   flex-shrink: 0;
 }
 
-.academic-card-main {
+.academic-mini-content {
   flex: 1;
   min-width: 0;
 }
 
-.academic-card-main h3 {
-  font-size: 1.1rem;
-  font-weight: 700;
-  margin: 0 0 6px;
+.academic-mini-content h3 {
+  font-size: 0.93rem;
+  font-weight: 650;
+  line-height: 1.35;
+  margin: 0 0 4px;
+}
+
+.academic-mini-content a {
+  font-size: 0.86rem;
   line-height: 1.4;
 }
 
-.academic-card-main a {
-  font-size: 0.95rem;
-}
-
-.academic-card-meta {
-  text-align: right;
+.academic-mini-date {
+  font-size: 0.78rem;
   color: var(--global-text-color);
-  font-size: 0.9rem;
-  flex-shrink: 0;
-  line-height: 1.8;
+  opacity: 0.7;
+  margin-top: 4px;
 }
 
-@media (max-width: 750px) {
-  .academic-card {
-    flex-wrap: wrap;
-    gap: 12px;
+@media (max-width: 768px) {
+  .academic-resume {
+    clear: both;
   }
 
-  .academic-card img {
-    width: 80px;
-    height: 60px;
+  .academic-mini-card {
+    padding: 12px;
   }
 
-  .academic-card-meta {
-    width: 100%;
-    text-align: left;
+  .academic-mini-card img {
+    width: 45px;
+    height: 45px;
   }
 }
 </style>
 
-<div style="clear: both; height: 30px;"></div>
+<section class="academic-resume">
 
-<h2>Education</h2>
+  <h2>Education</h2>
 
-<div class="academic-card">
-  <img src="/assets/img/liverpool.png" alt="University of Liverpool">
-  <div class="academic-card-main">
-    <h3>Ph.D. in Health Data Science</h3>
-    <a href="https://www.liverpool.ac.uk/">University of Liverpool</a>
+  <div class="academic-mini-card">
+    <img src="/assets/img/liverpool.png" alt="University of Liverpool">
+    <div class="academic-mini-content">
+      <h3>Ph.D. in Health Data Science</h3>
+      <a href="https://www.liverpool.ac.uk/">University of Liverpool</a>
+      <div class="academic-mini-date">Jan. 2023 – Jan. 2027 (Expected)</div>
+    </div>
   </div>
-  <div class="academic-card-meta">
-    <div>Liverpool, UK</div>
-    <div>Jan. 2023 – Jan. 2027 (Expected)</div>
-  </div>
-</div>
 
-<div class="academic-card">
-  <img src="/assets/img/leeds.png" alt="University of Leeds">
-  <div class="academic-card-main">
-    <h3>M.Sc. in Advanced Computer Science (Artificial Intelligence)</h3>
-    <a href="https://www.leeds.ac.uk/">University of Leeds</a>
+  <div class="academic-mini-card">
+    <img src="/assets/img/leeds.png" alt="University of Leeds">
+    <div class="academic-mini-content">
+      <h3>M.Sc. in Advanced Computer Science (AI)</h3>
+      <a href="https://www.leeds.ac.uk/">University of Leeds</a>
+      <div class="academic-mini-date">Oct. 2021 – Oct. 2022</div>
+    </div>
   </div>
-  <div class="academic-card-meta">
-    <div>Leeds, UK</div>
-    <div>Oct. 2021 – Oct. 2022</div>
-  </div>
-</div>
 
-<div class="academic-card">
-  <img src="/assets/img/qust.png" alt="Qingdao University of Science and Technology">
-  <div class="academic-card-main">
-    <h3>B.Eng. in Computer Science and Technology</h3>
-    <a href="https://www.qust.edu.cn/">Qingdao University of Science and Technology</a>
+  <div class="academic-mini-card">
+    <img src="/assets/img/qust.png" alt="Qingdao University of Science and Technology">
+    <div class="academic-mini-content">
+      <h3>B.Eng. in Computer Science and Technology</h3>
+      <a href="https://www.qust.edu.cn/">Qingdao University of Science and Technology</a>
+      <div class="academic-mini-date">Sep. 2014 – Jun. 2018</div>
+    </div>
   </div>
-  <div class="academic-card-meta">
-    <div>Qingdao, China</div>
-    <div>Sep. 2014 – Jun. 2018</div>
-  </div>
-</div>
 
-<h2>Professional Experience</h2>
+  <h2>Professional Experience</h2>
 
-<div class="academic-card">
-  <img src="/assets/img/shanghai_ai_lab.png" alt="Shanghai AI Laboratory">
-  <div class="academic-card-main">
-    <h3>Research Intern</h3>
-    <a href="https://www.shlab.org.cn/">Shanghai Artificial Intelligence Laboratory</a>
+  <div class="academic-mini-card">
+    <img src="/assets/img/shanghai_ai_lab.png" alt="Shanghai AI Laboratory">
+    <div class="academic-mini-content">
+      <h3>Research Intern</h3>
+      <a href="https://www.shlab.org.cn/">Shanghai Artificial Intelligence Laboratory</a>
+      <div class="academic-mini-date">May 2026 – Nov. 2026 (Expected)</div>
+    </div>
   </div>
-  <div class="academic-card-meta">
-    <div>Shanghai, China</div>
-    <div>May 2026 – Nov. 2026 (Expected)</div>
-  </div>
-</div>
+
+</section>
 
 
