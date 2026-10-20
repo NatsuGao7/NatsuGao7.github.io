@@ -8,18 +8,20 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
  
+  
   more_info: >
-    <div style="display: flex; gap: 18px; align-items: center; margin-top: 10px;">
-      <a href="mailto:Natsugao0218@gmail.com" aria-label="Email" title="Email">
-        <i class="fas fa-envelope fa-lg"></i>
-      </a>
-      <a href="https://scholar.google.com/citations?user=nwTqsUoAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" title="Google Scholar">
-        <i class="ai ai-google-scholar ai-lg"></i>
-      </a>
-      <a href="https://github.com/NatsuGao7" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
-        <i class="fab fa-github fa-lg"></i>
-      </a>
+    <div style="text-align: center; margin-top: 15px; line-height: 2.2;">
+      <p style="margin: 0;">
+        <a href="mailto:Natsugao0218@gmail.com" style="color: inherit; text-decoration: none;">Email: Natsugao0218@gmail.com</a>
+      </p>
+      <p style="margin: 0;">
+        <a href="https://scholar.google.com/citations?user=nwTqsUoAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Google Scholar</a>
+      </p>
+      <p style="margin: 0;">
+        <a href="https://github.com/NatsuGao7" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">GitHub</a>
+      </p>
     </div>
+
 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
