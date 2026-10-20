@@ -1,8 +1,8 @@
+
 ---
 layout: post
-title: Paper Accepted to IROS 2026
-date: Oct. 01, 2026
-inline: false
+date: 2026-10-01
+inline: true
 related_posts: false
 ---
 
