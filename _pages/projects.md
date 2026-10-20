@@ -116,9 +116,10 @@ nav_order: 3
 
     <p>
       MedBench v5 is a Chinese medical AI benchmarking platform
-      designed to systematically evaluate the clinical capabilities
-      and safety of large language models. It extends conventional
-      answer-based evaluation toward dynamic clinical reasoning,
+      developed by Shanghai AI Laboratory to systematically
+      evaluate the clinical capabilities and safety of large
+      language models. It extends conventional answer-based
+      evaluation toward dynamic clinical reasoning,
       process-level assessment, and hallucination awareness.
     </p>
 
@@ -139,6 +140,15 @@ nav_order: 3
     </div>
 
     <div>
+      <a
+        class="project-link"
+        href="https://medbench.opencompass.org.cn/home"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Project Website ↗
+      </a>
+
       <a
         class="project-link"
         href="https://arxiv.org/abs/2606.24155"
