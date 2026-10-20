@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: Sep. 21, 2026
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+🎓 Finally submitted my Ph.D. thesis! Now keeping my fingers crossed for an early viva — the finish line is in sight! 🤞
