@@ -1,3 +1,4 @@
+
 ---
 layout: page
 permalink: /publications/
@@ -28,6 +29,13 @@ nav_order: 2
   padding-bottom: 10px;
   border-bottom: 1px solid var(--global-divider-color);
   scroll-margin-top: 90px;
+}
+
+/* Make Zhuangzhi Gao bold in publications */
+.publications .author em,
+.publications .author em a {
+  font-weight: 700 !important;
+  font-style: normal !important;
 }
 </style>
 
