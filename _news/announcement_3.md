@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: Oct. 01, 2026
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+🎉 Three papers accepted to **MICCAI 2026 (CCF-B)**, including one selected for **Spotlight and Early Acceptance**! Huge thanks to all my co-authors!
