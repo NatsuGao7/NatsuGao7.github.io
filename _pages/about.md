@@ -158,7 +158,7 @@ My research interests lie at the intersection of **Computer Vision, Multimodal L
     <div class="academic-mini-content">
       <h3>Research Intern</h3>
       <a href="https://www.shlab.org.cn/">Shanghai Artificial Intelligence Laboratory</a>
-      <div class="academic-mini-date">May 2026 – Nov. 2026 (Expected)</div>
+      <div class="academic-mini-date">May 2026 – Nov. 2026 </div>
     </div>
   </div>
 
